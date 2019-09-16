@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Button from '@material-ui/core/Button';
 
 const App: React.FC = () => {
   return (
@@ -19,6 +20,9 @@ const App: React.FC = () => {
           Learn React
         </a>
       </header>
+      <Button variant="contained" color="primary">
+        Hello World
+      </Button>
     </div>
   );
 }
