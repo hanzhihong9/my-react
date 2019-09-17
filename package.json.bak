@@ -1,0 +1,63 @@
+{
+	"name": "my-react",
+	"version": "0.1.0",
+	"dependencies": {
+		"@material-ui/core": "4.3.0",
+		"@material-ui/icons": "4.2.1",
+		"@material-ui/styles": "4.3.0",
+		"@sentry/browser": "^5.6.3",
+		"axios": "^0.19.0",
+		"classnames": "^2.2.6",
+		"formsy-react": "^1.1.5",
+		"localforage": "1.7.3",
+		"lodash": "^4.17.11",
+		"mdi-material-ui": "^6.6.0",
+		"normalizr": "^3.4.1",
+		"prop-types": "^15.7.2",
+		"react": "16.8.6",
+		"react-dom": "16.8.6",
+		"react-logic": "0.0.1",
+		"react-paginate": "^6.3.0",
+		"react-redux": "7.1.0",
+		"react-router-dom": "5.0.1",
+		"react-scripts": "3.0.1",
+		"redux-devtools-extension": "2.13.8",
+		"redux-logger": "3.0.6",
+		"redux-observable": "^1.1.0",
+		"redux-persist": "5.10.0",
+		"redux-starter-kit": "^0.7.0",
+		"redux-thunk": "2.3.0",
+		"reselect": "^4.0.0",
+		"rxjs": "^6.5.2",
+		"typesafe-actions": "^4.4.0",
+		"typescript": "^3.6.2"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"cosmos": "npx cosmos"
+	},
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not ie <= 11",
+		"not op_mini all"
+	],
+	"devDependencies": {
+		"@types/classnames": "^2.2.9",
+		"@types/jest": "24.0.15",
+		"@types/lodash": "^4.14.132",
+		"@types/node": "12.6.8",
+		"@types/react": "16.8.23",
+		"@types/react-dom": "16.8.5",
+		"@types/react-paginate": "^6.2.1",
+		"@types/react-redux": "7.1.1",
+		"@types/react-router-dom": "4.3.4",
+		"@types/redux-logger": "3.0.7",
+		"@types/webpack-env": "1.14.0",
+		"eslint-plugin-react": "7.14.3",
+		"react-cosmos": "^5.0.0-beta.3"
+	}
+}
